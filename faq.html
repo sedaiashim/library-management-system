@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-white">
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        aria-label="Global"
+      >
+        <div class="flex lg:flex-1">
+          <a href="index.html" class="-m-1.5 p-1.5 flex gap-2 items-center">
+            <span class="sr-only">Ashim Library</span>
+            <img
+              class="h-8 w-auto rounded-md"
+              src="https://images.unsplash.com/photo-1593882100241-aef1449fe351"
+              alt="Ashim Library"
+            />
+            <span class="text-lg font-semibold">Ashim Library</span>
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button
+            type="button"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+              data-slot="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a
+            href="index.html"
+            class="text-sm font-semibold leading-6 text-gray-900"
+            >Books</a
+          >
+          <a
+            href="faq.html"
+            class="text-sm font-semibold leading-6 text-gray-900"
+            >Faq</a
+          >
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a
+            href="profile.html"
+            class="text-sm font-semibold leading-6 text-gray-900"
+            >My Profile <span aria-hidden="true">&rarr;</span></a
+          >
+        </div>
+      </nav>
+    </header>
+    <div class="px-6 lg:px-8 mt-8">
+      <div class="grid grid-cols-12 gap-4">
+        <div class="col-span-12 mb-5">
+          <p class="text-2xl font-bold mb-4">Frequently asked questions</p>
+          <p class="">
+            Have a different question and can’t find the answer you’re looking
+            for? Reach out to our support team by sending us an email and we’ll
+            get back to you as soon as we can.
+          </p>
+        </div>
+        <div class="col-span-4">
+          <p class="text-lg font-semibold">
+            What's the best thing about Switzerland?
+          </p>
+          <p>
+            I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
